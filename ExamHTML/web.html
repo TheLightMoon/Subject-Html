@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exam second semeter, three course</title>
+        <style type="text/css">
+            body {
+                background-image: url(A+.jpg);
+                background-attachment: fixed;
+                background-size: cover;
+            }
+            .header{
+                border: 5px solid yellow;
+                color: blue;
+                font-size: 10;
+                font-style: oblique;
+                font-weight: 100;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                text-align: center;
+            }
+            div {
+                background-color: cyan;
+                background-size: 100px 100px;
+                position: absolute, fixed;
+                text-align: top left;
+                font-size: 7mm;
+                font-weight: bold;
+                
+                width: 200px;
+                height: 60px;
+                margin: auto;
+                
+                padding: 25px;
+                border-style: bold;
+                border-color: gold;
+                border:5px solid cyan;
+                outline-style: solid;
+                outline-width: thin;
+                outline-color: black;
+            }
+            div#grad1 {
+                background-color: deepskyblue ;
+                background:-moz-linear-gradient(gold, lightblue);
+                background:-o-linear-gradient(lightblue, chartreuse);
+                background:-webkit-linear-gradient(chartreuse, greenyellow);
+                background: linear-gradient(green, darkblue);
+            }
+            div#grad2 {
+                background:-moz-linear-gradient(top right, gold, lightblue);
+                background:-o-linear-gradient(top right, lightblue, chartreuse);
+                background:-webkit-linear-gradient(top right, chartreuse, greenyellow);
+                background:radial-gradient( blue 5%, orange 20%, lime 90%);            }
+            div#grad3 {
+                background:linear-gradient(90deg, gold, magenta);
+            }
+            div#grad4 {
+                background: radial-gradient(circle, blue, yellow, aquamarine);
+            }
+            div#grad5 {
+            background:repeating-linear-gradient(red, yellow, green 20%);
+            }
+            #img1 {
+                width: 100px;
+                padding: 15px 40px;
+                background-image: url(good.gif);
+                background-size: 100px;
+            }
+            video {
+                width: 400px;
+                height: 300px;
+            }
+            audio {
+                width: 400px;
+                height: 100px;
+            }
+            table{
+                color: rgb(6, 44, 6);
+                font-size: 4mm;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <p>Step 1</p>
+        <h1 class="header">WELLCOME TO MY WEBSIDE!</h1><br>
+        <p>--Here it's defines a paragraph--</p><br>
+        <u>Here it's underlines text (not recommended use in text containing links)</u><br>
+        <b>Here it's represents stylistically reinforced text, for example, for showing keywords</b><br>
+        <i>Here it's represents text that is different from the general environment, but it does not have an emotional coloring (it is highlighted with an oblique font)</i>
+        <p>The chemical formula of water is: H<sub>2</sub>O</p>
+        <p>The squared equation of math is: Ax<sup>2</sup> + Bx<sup>1</sup> + C = 0</p>
+        
+        <p>Step 2</p>
+        <div style="left: 200px;">Im learn group KIT.118.ei</div>
+        
+        <p>Step 3</p>
+        <h3>List of student group KIT.118.ei</h5>
+        <ul>
+            <li>1?</li>
+            <li>2?</li>
+            <li>3?</li>
+            <li>Bentalla Huda</li>
+            <li>Berdipoor Navid</li>
+            <li>6?</li>
+            <li>Enhessari Alireza Morteza</li>
+            <li>8?</li>
+            <li>Kara Asu Nur</li>
+            <li>Lahmamsi Aiman</li>
+            <li>Nguyen Viet Ha</li>
+            <li>12?</li>
+            <li>13?</li>
+            <li>14?</li>
+            <li>15?</li>
+            <li>16?"Pass"</li>
+        </ul>
+        
+        <p>Step 4</p>
+        <div id="grad1" style="margin: 4% 5%;">G1
+            <div id="grad2">G2
+                <div id="grad3">G3
+                    <div id="grad4">G4
+                        <div id="grad5">G5</div>
+                    </div>
+                </div>
+            </div>
+        </div><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        
+        <p>Step 5</p>
+        <span>Image </span>this is:
+        <img id="img1" src="good.gif" alt="Good prrogram" ><br>
+        <span>Shower </span>the tricks of the parrot:
+        <video controls autoplay muted>
+            <source src="parrot.mp4" type="video/mp4;">
+            <source src="parrot.webm" type="video/webmp;">
+            <source src="parrot.flx" type="video/x-flv">
+        </video><br><br>
+        <span>Play </span>sound using:
+        <audio controls autoplay>
+            <source src="Alicia_Keys_Good_JobAudio256kbps.mp3" type="audio/mpeg" />    
+            <source src="AKGJA.ogg" type="audio/ogg" codecs="mp3"/>
+        </audio>
+
+        <p>Step 6</p>
+        <table width="100%" height="100%" align="center">
+            <iframe name="hereff"></iframe><br><br>
+            <tr><td> Link with target:
+            <td><a href="../ExamHTML/other.html" target="hereff">other.html</a><br>
+            <tr><td> Link to external document:
+            <td><a href="../ExamHTML/other.html"> Goto other.html </a><br>
+            <tr><td> Link bookmarks:
+            <td><a href="#beg">The begining.</a>-----<a href="#end">The end.</a><br>
+            <tr><td> Link as picture:
+            <td><a href="../ExamHTML/A+.jpg" title="Logical and show picture"><img src="arrow.jpg" sizes="10px"></a><br>
+            <tr><td> Link to start an audeo clip:
+            <td><a href="Alicia_Keys_Good_JobAudio256kbps.mp3" target="hereff"> Sound </a><br>
+            <tr><td> Reference link:
+            <td><a style="border-style:none; cursor:grab" href="../ExamHTML/web.html"> Lists </a><br>
+        </table>
+    </body>
+
+    <footer></footer>
+</html>
